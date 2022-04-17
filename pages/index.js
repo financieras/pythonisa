@@ -21,18 +21,18 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="http://nbviewer.org/github/financieras/pyCourse/tree/main/jupyter" className={styles.card}>
             <h2>Curso &rarr;</h2>
             <p>Desde lo básico en Python hasta Objetos y más ...</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Aplicaciones &rarr;</h2>
-            <p>Financieras, actuariales, Web Scraping, bots, ...</p>
+          <a href="http://nbviewer.org/github/financieras/pyCourse/tree/main/ejemplos" className={styles.card}>
+            <h2>Ejemplos &rarr;</h2>
+            <p>Casos resueltos por varios métodos ...</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="http://nbviewer.org/github/financieras/pyCourse/tree/main/practicas"
             className={styles.card}
           >
             <h2>Prácticas &rarr;</h2>
@@ -40,7 +40,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://altocodigo.blogspot.com/p/aprender-haciendo.html"
             className={styles.card}
           >
             <h2>Retos &rarr;</h2>
